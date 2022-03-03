@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    
+}
+
+.box{
+    background-color: aqua;
+    width: 30vw;
+    height: 30vh;
+    margin: 20px;
+    
+}
+@media only screen and (min-width:360px) and (max-width:720px){
+    .container{
+        display: block;
+        height:1200px
+    }
+    .box{
+        margin: 20px;
+        background-color: yellowgreen;
+    }
+}
